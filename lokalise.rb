@@ -13,7 +13,7 @@ module Fastlane
           api_token: token,
           id: project_identifier,
           type: "strings",
-          use_original: 0,
+          use_original: 1,
           bundle_filename: "Localization.zip",
           bundle_structure: "%LANG_ISO%.lproj/Localizable.%FORMAT%",
           ota_plugin_bundle: 0,
